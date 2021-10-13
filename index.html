@@ -1,0 +1,316 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+</style>
+</head>
+<body>
+ <!-- Useful links:
+ For getting mermaid to render - https://github.com/mermaid-js/mermaid/blob/develop/docs/usage.md -->
+<div class="sidenav">
+  <a href="#welcome">1 WELCOME</a>
+
+  <a href="#whoandwhat">2 WHO ARE WE AND WHAT ARE WE DOING?</a>
+    <a href="#projects">2.1 Your projects</a>
+    <a href="#inspired">2.2 Your starting point</a>
+    <a href="#tools">2.3 Your tools</a>
+
+    <a href="#data">3 DATA</a>
+      <a href="#smalldata">3.1 Small Data</a>
+      <a href="#dataforart">3.2 Small dARTa</a>
+      <a href="#thinkingbigdata">3.3 Thinking Big - Data</a>
+
+    <a href="#ethics">4 ETHICS</a>
+        <a href="#ethicsoverview">4.1 An Ethics of Care</a>
+        <a href="#ethicsforart">4.2 Ethics of Care for small dARTs</a>
+        <a href="#thinkingbigethics">4.3 Thinking Big - Ethics</a>
+
+    <a href="#musicdataethics">5 MUSIC, DATA, ETHICS</a>
+
+    <a href="#informedengagement">6 TOWARDS INFORMED ENGAGEMENT</a>
+        <a href="#creating">6.1 Creating</a>
+        <a href="#connecting">6.2 Connecting</a>
+        <a href="#conveying">6.3 Conveying</a>
+
+</div>
+
+<div class="main">
+
+<h1><u>Music, data, digital ethics: Informed engagment with digital innovation.</u></h1>
+<p>We acknowledge that we are gathered, both physically and virtually, on the lands of the Wurundjeri people of the Kulin Nation, who have been custodians of these unceded lands for many thousands of years. The University of Melbourne is situated on the lands of the Wurundjeri and Boon Wurrung, the Dja Dja Wurrung People, the Yorta Yorta Nation, and the Wadawurrung People. We acknowledge and pay our respects to their Elders past and present.</p>
+
+<h1><a id='welcome'>Welcome and overview</a></h1>
+  <p>Welcome to this session on music, data, and digital ethics. This session was prepared for the Interactive Composition Graduate Research Seminar, October 13, 2021, 2.15-4.15, presented by <a href='https://orcid.org/0000-0002-7022-3213'>Kristal Spreadborough</a>, Research Data Specialist at the <a href='https://mdap.unimelb.edu.au/'>Melbourne Data Analytics Platform</a>. 'Music, data, digital ethics' is a huge and underexplored topic. We're going take a telescope approach - we're going to look far by staying focused.</p>
+<iframe src="https://giphy.com/embed/gIxBtRsuxT0iWuBDY4" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/planets-telescope-mastertingus-gIxBtRsuxT0iWuBDY4">via GIPHY</a></p>
+   <p>In this session we will lok at:</p>
+   <div class="mermaid">
+     graph TD
+      style A fill:#f9f,stroke:#333,stroke-width:4px
+     style E fill:#f9f,stroke:#333,stroke-width:4px
+         A[Broad Concept] --> B(Think about the impact of 'data' on practice.)
+         B -->C(Think about the broad implications of 'digital ethics')
+         C --> D(Consider how music intersects with data and digital ethics.)
+         D --> I
+
+         E[Focal Point] --> F(Examine Small Data and its relevance to music.)
+         F -->G(Ground ourselves in an Ethics of Care - a relational ethics approach.)
+         G --> H(Music, data, ethics - a journey map. )
+         H --> I(And finally: Consider what the future of informed engagment looks like.)
+
+
+     </div>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>mermaid.initialize({startOnLoad:true});</script>
+
+
+<p>At the end of this seminar, please give take a moment to <a href='https://melbourneuni.au1.qualtrics.com/jfe/form/SV_87965TDUDXAW7Oe'>give your feedback<a></p>
+<p>But first, let's get to know each other!</p>
+
+<h1><a id='whoandwhat'>Who are we and what are we doing?</h1>
+<br></br>
+<!-- This Script is from www.htmlfreecodes.com, Provided by: Mahmood Bina -->
+<script type='text/javascript' src='http://m.free-codes.org/gh.php?id=2001'></script><!-- By: Joshua Oliver -->
+<style>
+        @keyframes spin {from {} to {transform:rotate(360deg);}}
+        .spin:hover {animation-name:spin;animation-duration:3s;position:absolute;}
+    </style>
+    <br><br><span class="spin"><b><mark>Interactive activity!</mark></b></span><a target="_blank" href="http://free-web-tools.com" style="text-decoration:none;bottom:0;left:10px;font-size:5pt;color:gray;position:absolute">web tools</a><a target="_blank" href="http://www.htmlfreecodes.com" style="font-size: 8pt; text-decoration: none"></a>
+
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<h2><a id='projects'>Your Projects</h2>
+<p>Using words, images, gifs, linked videos, etc, describe a project that you're currently working on. </p>
+<div class="padlet-embed" style="border:1px solid rgba(0,0,0,0.1);border-radius:2px;box-sizing:border-box;overflow:hidden;position:relative;width:100%;background:#F4F4F4"><p style="padding:0;margin:0"><iframe src="https://unimelb.padlet.org/embed/judwqya86cdrswht" frameborder="0" allow="camera;microphone;geolocation" style="width:100%;height:1200px;display:block;padding:0;margin:0"></iframe></p><div style="padding:8px;text-align:right;margin:0;"><a href="https://padlet.com?ref=embed" style="padding:0;margin:0;border:none;display:block;line-height:1;height:16px" target="_blank"><img src="https://padlet.net/embeds/made_with_padlet.png" width="86" height="16" style="padding:0;margin:0;background:none;border:none;display:inline;box-shadow:none" alt="Made with Padlet"></a></div></div>
+<h2><a id='inspired'>Your starting point</h2>
+<p>What inspired that project? What event, thing, source of information, etc are you drawing on or responding to?</p>
+<div class="padlet-embed" style="border:1px solid rgba(0,0,0,0.1);border-radius:2px;box-sizing:border-box;overflow:hidden;position:relative;width:100%;background:#F4F4F4"><p style="padding:0;margin:0"><iframe src="https://unimelb.padlet.org/embed/5ekmln7o377s4n0n" frameborder="0" allow="camera;microphone;geolocation" style="width:100%;height:1200px;display:block;padding:0;margin:0"></iframe></p><div style="padding:8px;text-align:right;margin:0;"><a href="https://padlet.com?ref=embed" style="padding:0;margin:0;border:none;display:block;line-height:1;height:16px" target="_blank"><img src="https://padlet.net/embeds/made_with_padlet.png" width="86" height="16" style="padding:0;margin:0;background:none;border:none;display:inline;box-shadow:none" alt="Made with Padlet"></a></div></div>
+<h2><a id='tools'>Your Tools</h2>
+
+<p>What tools, sofrware, equipment etc. do you need to complete the project?</p>
+<div class="padlet-embed" style="border:1px solid rgba(0,0,0,0.1);border-radius:2px;box-sizing:border-box;overflow:hidden;position:relative;width:100%;background:#F4F4F4"><p style="padding:0;margin:0"><iframe src="https://unimelb.padlet.org/embed/etph2vo9318f7ytn" frameborder="0" allow="camera;microphone;geolocation" style="width:100%;height:1200px;display:block;padding:0;margin:0"></iframe></p><div style="padding:8px;text-align:right;margin:0;"><a href="https://padlet.com?ref=embed" style="padding:0;margin:0;border:none;display:block;line-height:1;height:16px" target="_blank"><img src="https://padlet.net/embeds/made_with_padlet.png" width="86" height="16" style="padding:0;margin:0;background:none;border:none;display:inline;box-shadow:none" alt="Made with Padlet"></a></div></div>
+
+
+  <p>We're going to ground our session today in practice. We'll use a recent example from my own work as an illistration, and we'll create our own explorative piece as we go through today.</p>
+  <p>Illustrative example:</p>
+     <iframe src="https://widgets.figshare.com/articles/16735471/embed?show_title=1" width="568" height="351" allowfullscreen frameborder="0"></iframe>
+
+<h1><a id='data'>3 Data</h1>
+
+  <p>Reminder - we are here:</p>
+  <div class="mermaid">
+    graph TD
+    style A fill:#f9f,stroke:#333,stroke-width:4px
+    style E fill:#f9f,stroke:#333,stroke-width:4px
+    style B fill:#f9f,stroke:#333,stroke-width:4px
+    style F fill:#f9f,stroke:#333,stroke-width:4px
+        A[Broad Concept] --> B(Think about the impact of 'data' on practice.)
+        B -->C(Think about the broad implications of 'digital ethics')
+        C --> D(Consider how music intersects with data and digital ethics.)
+        D --> I
+
+        E[Focal Point] --> F(Examine Small Data and its relevance to music.)
+        F -->G(Ground ourselves in an Ethics of Care - a relational ethics approach.)
+        G --> H(Music, data, ethics - a journey map. )
+        H --> I(And finally: Consider what the future of informed engagment looks like.)
+    </div>
+   <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+   <script>mermaid.initialize({startOnLoad:true});</script>
+
+  <p>Think back on the <a href="#inspired">"2.2 Your starting point"</a> Padlet. </p>
+  <p>Would you consider this to be data? Do you think of yourself as someone who works with data? </p>
+
+  <iframe src="https://pollev-embeds.com/multiple_choice_polls/pQsrfMht1CKeszNhZmMoK/respond" width="800px" height="600px"></iframe>
+
+  <p>Results...</p>
+  <iframe src="https://embed.polleverywhere.com/multiple_choice_polls/VHhkWztazuIzCC5wPZPtL?controls=none&short_poll=true" width="800px" height="600px"></iframe>
+  <h2><a id='smalldata'>3.1 Small Data</h2>
+
+<p>Today, we’re going to focus on a specific kind of data called “Small Data”. </p>
+<p> Feel free to join the twitter thread to find and share literature on small data. </p>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Going on a <a href="https://twitter.com/hashtag/SmallData?src=hash&amp;ref_src=twsrc%5Etfw">#SmallData</a> dive. Let&#39;s see what&#39;s out there. <a href="https://t.co/69RGcMRfdf">pic.twitter.com/69RGcMRfdf</a></p>&mdash; KristalSpreadborough (@SpreadboroughKL) <a href="https://twitter.com/SpreadboroughKL/status/1445678401042354176?ref_src=twsrc%5Etfw">October 6, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>Small data has been theorised in a number of fields including marketing, health, and computer science. Small data: </p>
+<ul>
+  <li>Is about the <b>lived experiences</b> of communities, in contrast to big data which is about high-level trends. Marketing began discussing “small data” and considering what it reveals about people and behaviour around 2016 (for example, the work of <a href='https://knowledge.wharton.upenn.edu/article/small-data-new-big-data/'>Martin Lindstrom</a>)   </li>
+  <li>Can provide <b>transformative insights</b> into people’s behaviour. Computer science has been considering ways of harnessing small data so that it might be used by individuals to understand and change their own behaviour (for example, <a href='https://destrin.tech.cornell.edu/papers/small_data_applications__alldata_2018.pdf'>Small Data Applications and Architecture</a>) </li>
+  <li>Speaks to <b>causation</b> over correlation. Health sciences have explored how small data is a rich source of information when trying to understand the context which may impact an event, action, or behaviour (for example, <a href='https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-019-1366-x'>Why we need a small data paradigm</a>, and <a href='https://cacm.acm.org/magazines/2014/4/173218-small-data-where-n-me/fulltext'>Small Data, Where N = Me</a>)</li>
+</ul>
+
+<h2><a id='dataforart'>3.2 Small dARTa</h2>
+  <p>How does small data relate to art? What makes it small dARTa?</p>
+  <br></br>
+  <!-- This Script is from www.htmlfreecodes.com, Provided by: Mahmood Bina -->
+  <script type='text/javascript' src='http://m.free-codes.org/gh.php?id=2001'></script><!-- By: Joshua Oliver -->
+  <style>
+          @keyframes spin {from {} to {transform:rotate(360deg);}}
+          .spin:hover {animation-name:spin;animation-duration:3s;position:absolute;}
+      </style>
+      <br><br><span class="spin"><b><mark>Interactive activity!</mark></b></span><a target="_blank" href="http://free-web-tools.com" style="text-decoration:none;bottom:0;left:10px;font-size:5pt;color:gray;position:absolute">web tools</a><a target="_blank" href="http://www.htmlfreecodes.com" style="font-size: 8pt; text-decoration: none"></a>
+  <br></br>
+  <br></br>
+  <p>Thinking back to the <a href="#projects">"2.1 Your projects"</a> Padlet, how do the three key concepts introduced in relation to small data theory in marketing, computer science, and medicine relate to your work?</p>
+
+<div class="padlet-embed" style="border:1px solid rgba(0,0,0,0.1);border-radius:2px;box-sizing:border-box;overflow:hidden;position:relative;width:100%;background:#F4F4F4"><p style="padding:0;margin:0"><iframe src="https://unimelb.padlet.org/embed/yb3lnfvaw4flhors" frameborder="0" allow="camera;microphone;geolocation" style="width:100%;height:1200px;display:block;padding:0;margin:0"></iframe></p><div style="padding:8px;text-align:right;margin:0;"><a href="https://padlet.com?ref=embed" style="padding:0;margin:0;border:none;display:block;line-height:1;height:16px" target="_blank"><img src="https://padlet.net/embeds/made_with_padlet.png" width="86" height="16" style="padding:0;margin:0;background:none;border:none;display:inline;box-shadow:none" alt="Made with Padlet"></a></div></div>
+
+<p><b><a id='thinkingbigdata'>THINKING BIG - DATA</p></b>
+<p>Why think about data at all? (Here, I’m speaking with reference to small data, but these concepts also apply broadly) </p>
+<ul>
+  <li>When we CREATE art we are often drawing on “data” in some form.  Whose data is it? Where does it come from? What is it representing? What is it not representing?</li>
+  <li>When we CONNECT with others data is gathered and used to facilitate and mediate our experiences. Who is collecting the data? What is it used for? Who is consenting and on behalf of whom?</li>
+  <li>When we CONVEY our art we are sharing ours and others data. What platforms mediate this sharing? Are they equitable? What is rendered in/visible through this process?</li>
+</ul>
+<p>Thinking about the data that underpins every aspect of our practice makes visible ethical challenges that may otherwise go unseen.</p>
+<p>Starting with the idea that projects can be thought of in terms of small data may provide a foothold into these bigger picture questions. </p>
+
+<h1><a id='ethics'>4 Ethics</h1>
+  <p>Reminder - we are here:</p>
+  <div class="mermaid">
+    graph TD
+    style A fill:#f9f,stroke:#333,stroke-width:4px
+    style E fill:#f9f,stroke:#333,stroke-width:4px
+    style C fill:#f9f,stroke:#333,stroke-width:4px
+    style G fill:#f9f,stroke:#333,stroke-width:4px
+        A[Broad Concept] --> B(Think about the impact of 'data' on practice.)
+        B -->C(Think about the broad implications of 'digital ethics')
+        C --> D(Consider how music intersects with data and digital ethics.)
+        D --> I
+
+        E[Focal Point] --> F(Examine Small Data and its relevance to music.)
+        F -->G(Ground ourselves in an Ethics of Care - a relational ethics approach.)
+        G --> H(Music, data, ethics - a journey map. )
+        H --> I(And finally: Consider what the future of informed engagment looks like.)
+      </div>
+     <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+     <script>mermaid.initialize({startOnLoad:true});</script>
+
+  <h2><a id='ethicsoverview'>4.1 An Ethics of Care</h2>
+
+<p>There are many models, frameworks, and theories of ethics. You could apply any one of them to the questions we have been raising. I want to focus on one model of ethics call the “Ethics of Care”. </p>
+
+<p>The Ethics of Care (also called Care Ethics) progressed in the 1980s by two theorists, Carol Gilligan and Nel Noddings. Gilligan pioneered it in psychology in response to Kohlberg's stages of moral development (biased since it was predominantly based of data gathered from males, who were socialised differently and thus tested differently to females). </p>
+
+<p>Gilligan proposed three stages of an Ethics of Care. Stage one was focused on meeting the needs of the self, stage two was focused on meeting the needs of others (e.g. denying the needs of the self), and stage three was focused on balancing the needs of the self with those of the other. In this way, an ethics of care is focused on the relationship between individuals rather than the actions of the individuals themselves. </p>
+
+<p>Although early work focused on private caring (e.g. feminised roles such as caring in the home, caring for children), increasingly an Ethics of Care is being applied to public caring. For example, an ethics of care has been applied to <a href='https://journals.sagepub.com/doi/full/10.1177/0969733013500162'>nursing</a>, <a href='https://www.jstor.org/stable/j.ctt9qgfvp.5?refreqid=excelsior%3A8a8fdd4afd826dc0c208427951e51565&seq=1#metadata_info_tab_contents'>politics</a>, and <a href='https://www.journals.ac.za/index.php/sajhe/article/view/2654'>higher education</a> settings to consider dynamics of power, race, gender, religion and so on. </p>
+
+  <h2><a id='ethicsforart'>4.2 An Ethics of Care for small dARTa</h2>
+  <p>Ethics of Care provides a useful paradigm for interrogating ethical questions when engaging with small dARTa – and indeed digitally mediated music engagement in general. Now we're going to:</p>
+<ul>
+  <li>Look at three criteria for engaging in an Ethics of Care from <a href='https://journals.sagepub.com/doi/full/10.1177/0969733013500162'>Klaver et al</a>.,</li>
+  <li>  Discuss how it can be applied to small dARTa/digitally mediated music engagement, </li>
+  <li>  Provide real, tangible, examples.</li>
+
+<div class="padlet-embed" style="border:1px solid rgba(0,0,0,0.1);border-radius:2px;box-sizing:border-box;overflow:hidden;position:relative;width:100%;background:#F4F4F4"><p style="padding:0;margin:0"><iframe src="https://unimelb.padlet.org/embed/3i4uvrgrokazgeb0" frameborder="0" allow="camera;microphone;geolocation" style="width:100%;height:608px;display:block;padding:0;margin:0"></iframe></p><div style="padding:8px;text-align:right;margin:0;"><a href="https://padlet.com?ref=embed" style="padding:0;margin:0;border:none;display:block;line-height:1;height:16px" target="_blank"><img src="https://padlet.net/embeds/made_with_padlet.png" width="86" height="16" style="padding:0;margin:0;background:none;border:none;display:inline;box-shadow:none" alt="Made with Padlet"></a></div></div>
+
+<p><b><a id="thinkingbigethics">THINKING BIG - ETHICS</b></p>
+
+<p>Why think about ethics at all? (Here, I’m speaking with reference to an Ethics of Care for small dARTa, but these concepts can apply broadly). </p>
+<ul>
+
+<li>We always CREATE art in relation to something else – a provocation for a composition (data), a colleague with whom we perform (online engagement), some technology that facilitates music making (digital innovation). What dynamics of these digitally mediated relationships should we consider? What are the potential harms? What are the potential benefits? How do we balance these? (and who are “we” to decide?)</li>
+
+<li>CONNECTING with others is an essential part of what we do, and digitally mediated connections are now commonplace – we connect with our community of peers (e.g. twitter), with audiences (e.g. YouTube), with collaborators (e.g. Zoom). What unique nuances of these connections do we have to consider in the digital sphere? How are these connections being datafied, and who gets a say in this? How can we translate (note: this does not mean directly transfer) learnings from one context to another? </li>
+
+<li>Sometimes, when we CONVEY art we’re blurring the lines between private and public relationships – when I use SOTL data to compose, when I as a private citizen engage in state mediated platforms, when we share art via platforms that do not operate in transparent ways. How can this dis/advantage certain groups (e.g. algorithmic under/over representation on search platforms)? What happens when private relationships are actually accessible by 3rd parties (e.g. some free collaboration platforms gather and use user data)? </li>
+</ul>
+<h1><a id='musicdataethics'>5 Music, data, ethics</h1>
+  <p>Reminder - we are here:</p>
+  <div class="mermaid">
+    graph TD
+    style A fill:#f9f,stroke:#333,stroke-width:4px
+    style E fill:#f9f,stroke:#333,stroke-width:4px
+    style D fill:#f9f,stroke:#333,stroke-width:4px
+    style H fill:#f9f,stroke:#333,stroke-width:4px
+        A[Broad Concept] --> B(Think about the impact of 'data' on practice.)
+        B -->C(Think about the broad implications of 'digital ethics')
+        C --> D(Consider how music intersects with data and digital ethics.)
+        D --> I
+
+        E[Focal Point] --> F(Examine Small Data and its relevance to music.)
+        F -->G(Ground ourselves in an Ethics of Care - a relational ethics approach.)
+        G --> H(Music, data, ethics - a journey map. )
+        H --> I(And finally: Consider what the future of informed engagment looks like.)
+      </div>
+     <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+     <script>mermaid.initialize({startOnLoad:true});</script>
+
+<p>Let's bring together the concepts from above</p>
+<div class="padlet-embed" style="border:1px solid rgba(0,0,0,0.1);border-radius:2px;box-sizing:border-box;overflow:hidden;position:relative;width:100%;background:#F4F4F4"><p style="padding:0;margin:0"><iframe src="https://unimelb.padlet.org/embed/zb9ato5jmlfc9cgt" frameborder="0" allow="camera;microphone;geolocation" style="width:100%;height:608px;display:block;padding:0;margin:0"></iframe></p><div style="padding:8px;text-align:right;margin:0;"><a href="https://padlet.com?ref=embed" style="padding:0;margin:0;border:none;display:block;line-height:1;height:16px" target="_blank"><img src="https://padlet.net/embeds/made_with_padlet.png" width="86" height="16" style="padding:0;margin:0;background:none;border:none;display:inline;box-shadow:none" alt="Made with Padlet"></a></div></div>
+
+<h1><a id='informedengagement'>6 Towards Informed Engagement</h1>
+  <p>Reminder - we are here:</p>
+  <div class="mermaid">
+    graph TD
+    style A fill:#f9f,stroke:#333,stroke-width:4px
+    style E fill:#f9f,stroke:#333,stroke-width:4px
+    style I fill:#f9f,stroke:#333,stroke-width:4px
+
+        A[Broad Concept] --> B(Think about the impact of 'data' on practice.)
+        B -->C(Think about the broad implications of 'digital ethics')
+        C --> D(Consider how music intersects with data and digital ethics.)
+        D --> I
+
+        E[Focal Point] --> F(Examine Small Data and its relevance to music.)
+        F -->G(Ground ourselves in an Ethics of Care - a relational ethics approach.)
+        G --> H(Music, data, ethics - a journey map. )
+        H --> I(And finally: Consider what the future of informed engagment looks like.)
+      </div>
+     <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+     <script>mermaid.initialize({startOnLoad:true});</script>
+
+  <h2><a id='creating'>6.1 Creating</h2>
+    <iframe src="https://pollev-embeds.com/discourses/etSUuvKRbCmaQrt26G2Jk/respond" width="800px" height="600px"></iframe>
+      <p>Results...</p>
+      <iframe src="https://embed.polleverywhere.com/discourses/gD8UEc27S75eQIJKnbFs3?controls=none&short_poll=true" width="800px" height="600px"></iframe>
+  <h2><a id='connecting'>6.2 Connecting</h2>
+    <iframe src="https://pollev-embeds.com/discourses/KoFx9SgDLOVOEbqyTj3Is/respond" width="800px" height="600px"></iframe>
+    <p>Results...</p>
+    <iframe src="https://embed.polleverywhere.com/discourses/DUSiyWSEj0C4luDV6BRrN?controls=none&short_poll=true" width="800px" height="600px"></iframe>
+  <h2><a id='conveying'>6.3 Conveying</h2>
+    <iframe src="https://pollev-embeds.com/discourses/aqV9NicmMlbD0MklEnSgu/respond" width="800px" height="600px"></iframe>
+<p>Results...</p>
+<iframe src="https://embed.polleverywhere.com/discourses/qfHyXvwcsfRDmKQRmAEl6?controls=none&short_poll=true" width="800px" height="600px"></iframe>
